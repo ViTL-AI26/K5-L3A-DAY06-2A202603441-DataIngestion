@@ -1,0 +1,309 @@
+strategy,sample_id,document_id,page,chunk_id,chunk_length,chunk_text,score_0_1_2,reason
+A,S01,unesco_genai_2023,10,a27f828a1a0c3943de8f0556e894c36577403d42437060313960b0575f357305,500,". Despite the media hyperbole, it is unlikely
+that GenAI alone will solve any of the problems facing
+education systems around the world. In responding to
+long-standing educational issues, it is key to uphold
+the idea that human capacity and collective action, and
+not technology, is the determining factor in effective
+solutions to fundamental challenges faced by societies.
+This Guidance therefore aims to support the planning
+of appropriate regulations, policies, and human
+capacity development pro",1.0,"Main idea is understandable, but the chunk begins and ends mid-sentence and truncates the final word."
+A,S02,unesco_genai_2023,26,a71ef95967cf538e82912873559137e648d82a1dd40cd91771729b372b2b4768,500,"mplementing
+minimum age restrictions for the independent
+use of GenAI in the institution.
+3.3.4. Individual users
+Individual users potentially include all people globally
+who have access to the Internet and at least one type
+of GenAI tool. The term ‘individual users’ , as employed
+here, mainly refer to individual teachers, researchers
+and learners in formal educational institutions or those
+participating in non-formal programmes of study.
+● Awareness of terms of reference on the
+use of GenAI: Up",0.0,Begins with a truncated word and ends mid-phrase; context is incomplete.
+A,S03,unesco_genai_2023,41,bdef9cfe51b2e26c9bc0c53b9ee5352e78dec22299b6170c7a1d3da649ba2829,500,"ellectual abilities and social skills – and not
+undermine them, conflict with them or usurp them.
+It has long been expected that AI tools can be further
+integrated as part and parcel of the tools available
+to humans to support analysis and action for more
+inclusive and sustainable futures.
+For AI to be a trustable part and parcel of human-
+machine collaboration – at individual, institutional and
+system levels – the human-centred approach informed
+by the 2021 UNESCO Recommendation on the Ethics o",1.0,"The discussion of human-centred AI is understandable, but both boundaries cut into sentences."
+A,S04,educause_horizon_2024,19,a66383a790e2c804544dbb418092975d088b7d2b89cf653fa7c3815eae759958,499,"to behave more like machines
+• Hinder social skills in young people and neurodiverse
+individuals
+• Help individuals with communication disabilities to better
+communicate
+• Facilitate and hinder the learning and use of foreign
+languages
+• Improve communication within organizations
+• Exacerbate loneliness
+Technological Trends
+AI tools have growing potential to reshape
+pedagogy and student experiences. When ChatGPT
+burst onto the scene, it grabbed the attention of faculty and
+students globally. Si",1.0,"The list and following technological-trends discussion are related, but the chunk starts and ends abruptly."
+A,S05,educause_horizon_2024,23,b02a4b13d0be14b42f1f849d8e6b0b248a68c12d3074f3fd2ef4875e7b954c64,499,"rning resources. Research has validated the
+efficacy of AI practice and its benefits to student engagement
+and learning.
+Emerging Technologies Faculty Learning
+Community
+The Emerging Technologies Faculty Learning Community
+(FLC) at Saginaw Valley State University consists of eighteen
+faculty members studying the impact of artificial intelligence
+in higher education. Throughout the academic year, the
+FLC will explore how to update teaching methods, course
+designs, and curricula in response to AI",1.0,"The faculty learning-community topic is identifiable, but the opening and ending are fragments."
+A,S06,educause_horizon_2024,44,d33c3b70148a4a9ea7e2514ba8ace34601bcef8fc15f4e5773a81dd3e4ea9010,500,"c Literacy: Student–
+Faculty Learning Community
+The Partners for Algorithmic Literacy (PAL) learning
+community at Purdue University Libraries transforms
+academia’s response to AI from reactive to proactive and
+participatory, bridging ingrained barriers between teachers
+and learners. PAL creates a supportive, collaborative space
+where students and instructors build inclusive educational
+experiences that create engagement through AI technologies.
+As partners, participants share perspectives and en",0.0,"Starts and ends mid-word or mid-sentence, making the passage difficult to interpret independently."
+A,S07,odea_ai_literacy_2024,2,42507f8f3d054315fa464f1d11a1401c8d203078d052aba5d85bac1aaae3e774,500,"luded relating to GenAI literacy, from the
+student perspective. Building a strong understanding of student perceptions in this area is critical,
+because it will help enhance appropriateness and content relevance and promote student en-
+gagement. Adopting the four-dimensional AI literacy framework as the theoretical foundation, this
+paper aims to address the gaps. It explores the perceptions of university students on GenAI literacy
+in the UK and Hong Kong contexts. Survey data from 234 students w",1.0,"The study focus is recognizable, but the opening and ending are truncated."
+A,S08,odea_ai_literacy_2024,11,fb92b4b982939202d2343fdc620781837fc9758c9d363533aaf3f609aa609f33,500,"sofware was used for
+Essays/written reports —for gathering some ideas 0.000000*
+Essays/written reports —for producing part of the entire essay 0.000000*
+Just playing around to see what it does 0.001064*
+Don’t use it at all 0.008018*
+How to decide which software to use
+Access provided by work/university 0.001367*
+Gender Software used
+ChatGPT3.5 0.005100*
+What the software was used for
+Generating computer code 0.000936*
+Just playing around to see what it does 0.001587*
+How to decide which software",0.0,Extracted table cells and values are interleaved; relationships between labels and values are unclear.
+A,S09,odea_ai_literacy_2024,19,f425188e8fb325055e4132cd955a0a0ce07736b47048769e592012455b6b3d2a,499,"few selected questions to determine the responses for each of the factors.
+Nevertheless, as Ng et al. (2024) designed the questionnaire on AI literacy contexts; this study helps
+contribute to adapt existing AI literacy measures for the context of generative AI across the United
+Kingdom and Hong Kong. By developing a GenAI-speci ﬁc literacy questionnaire, this study
+provided novel insights into how demographic factors in ﬂuence students ’ understanding and
+perceptions of this emerging technology",2.0,"Presents a coherent discussion of questionnaire adaptation, contribution, and future research."
+B,S01,unesco_genai_2023,10,f75a6c40aa7c5ffeea5af31db1e24a76f7aa368fba9af35d94348246ba79103a,492,"and concerns be fully
+understood and addressed.
+This Guidance is designed to respond to this urgent
+need. However, a thematic set of guidance on GenAI
+for education should not be understood as a claim
+that GenAI is the solution to education’s fundamental
+challenges. Despite the media hyperbole, it is unlikely
+that GenAI alone will solve any of the problems facing
+education systems around the world. In responding to
+long-standing educational issues, it is key to uphold
+the idea that human",1.0,"The central argument is clear, but the opening is a sentence continuation and the final sentence is cut off."
+B,S02,unesco_genai_2023,26,3c47bf97d74a3e141c3525d116356e4d62601a7b5f2a03e0e8d6bcdc0f358205,493,"include all people globally
+who have access to the Internet and at least one type
+of GenAI tool. The term ‘individual users’ , as employed
+here, mainly refer to individual teachers, researchers
+and learners in formal educational institutions or those
+participating in non-formal programmes of study.
+● Awareness of terms of reference on the
+use of GenAI: Upon signing or expressing
+consent to service agreements, users should
+be aware of the obligations of abiding by the
+ToR stipulated in the",1.0,"The passage describes individual GenAI users and their obligations, but starts and ends mid-sentence."
+B,S03,unesco_genai_2023,41,22d8e6e81d423f3cd70ffc0009394fe1ed09873a62a726863b41312d50c3c215,500,"has long been expected that AI tools can be further
+integrated as part and parcel of the tools available
+to humans to support analysis and action for more
+inclusive and sustainable futures.
+For AI to be a trustable part and parcel of human-
+machine collaboration – at individual, institutional and
+system levels – the human-centred approach informed
+by the 2021 UNESCO Recommendation on the Ethics of
+AI is to be further specified and implemented according
+to the specific characteristics of emerging",1.0,"The human-centred AI argument is coherent, although the final sentence is truncated."
+B,S04,educause_horizon_2024,19,3f4777ba4718d704b84cd4a38b2f74726f083edb2da3cd1fb40cd0b5092d1ca1,499,"hinder the learning and use of foreign
+languages
+• Improve communication within organizations
+• Exacerbate loneliness
+Technological Trends
+AI tools have growing potential to reshape
+pedagogy and student experiences. When ChatGPT
+burst onto the scene, it grabbed the attention of faculty and
+students globally. Since then, there has been great concern
+over the use of generative AI in the classroom, especially in
+the realm of course assessments and plagiarism. Yet AI tools
+are not only growing more",1.0,"The section is topically consistent, but begins with the tail of a list and ends mid-sentence."
+B,S05,educause_horizon_2024,23,fdd4855350cf6a565487030bdd9fec947127f18e60e354d6584836370e2fd459,493,"Emerging Technologies Faculty Learning Community
+(FLC) at Saginaw Valley State University consists of eighteen
+faculty members studying the impact of artificial intelligence
+in higher education. Throughout the academic year, the
+FLC will explore how to update teaching methods, course
+designs, and curricula in response to AI advancements.
+Each participant is working on a practical project, such as
+course redesigns, new assignments, curricular proposals, or
+resources for peers.
+AI-Intensive",2.0,The faculty learning-community example is explained in connected sentences with a clear subject and purpose.
+B,S06,educause_horizon_2024,44,1c3b5b4511d8ed093c4be75261f5675304a9100d076665308da4265656efde7f,495,"to
+enhance teaching and learning. It offers practical strategies,
+curated tools, and real examples from classrooms to
+support faculty in thoughtfully integrating generative AI while
+prioritizing student privacy and ethical considerations.
+Partners for Algorithmic Literacy: Student–
+Faculty Learning Community
+The Partners for Algorithmic Literacy (PAL) learning
+community at Purdue University Libraries transforms
+academia’s response to AI from reactive to proactive and
+participatory, bridging",1.0,"The passage contains related teaching/learning examples, but begins mid-sentence and ends before the PAL description is complete."
+B,S07,odea_ai_literacy_2024,2,ff95599efb8f6fd9c4b9c797516c6219deb25bfef05683cc91f5d0a4c4c3f0a3,492,"their
+time at university. Even though some universities have provided AI literacy training courses to
+students, the courses are not yet widely available to students across the higher education sector.
+Besides, there has been a shortage of GenAI literacy courses in particular. And more importantly, it
+is unclear what knowledge and skills that need to be included relating to GenAI literacy, from the
+student perspective. Building a strong understanding of student perceptions in this area is",1.0,"The shortage of GenAI literacy courses and research gap are clear, but the chunk starts and ends mid-sentence."
+B,S08,odea_ai_literacy_2024,11,ee47395096b83fde109ebc896a30e4a34a8f95b21cefd80ea4fbec870fe5c240,500,"reports —for producing part of the entire essay 0.000000*
+Just playing around to see what it does 0.001064*
+Don’t use it at all 0.008018*
+How to decide which software to use
+Access provided by work/university 0.001367*
+Gender Software used
+ChatGPT3.5 0.005100*
+What the software was used for
+Generating computer code 0.000936*
+Just playing around to see what it does 0.001587*
+How to decide which software to use
+Because it is free 0.006805*
+Because of the functionality of the tool 0.005139*
+Subject",0.0,The chunk is dominated by fragmented table content; labels and numerical values are difficult to associate.
+B,S09,odea_ai_literacy_2024,19,393a69088890be67e7a6c2174da65c3505cc0f5e347c02a56a06076c05cb6e44,491,"adapt existing AI literacy measures for the context of generative AI across the United
+Kingdom and Hong Kong. By developing a GenAI-speci ﬁc literacy questionnaire, this study
+provided novel insights into how demographic factors in ﬂuence students ’ understanding and
+perceptions of this emerging technology in ChatGPT world.
+Consequently, there is a need to design learni ng programs and allocate resources to prevent
+universities from falling behind. Future research should also assess the",1.0,"The contribution and implications are understandable, but the opening and ending are incomplete sentence fragments."
+C,S01,unesco_genai_2023,10,f75a6c40aa7c5ffeea5af31db1e24a76f7aa368fba9af35d94348246ba79103a,492,"and concerns be fully
+understood and addressed.
+This Guidance is designed to respond to this urgent
+need. However, a thematic set of guidance on GenAI
+for education should not be understood as a claim
+that GenAI is the solution to education’s fundamental
+challenges. Despite the media hyperbole, it is unlikely
+that GenAI alone will solve any of the problems facing
+education systems around the world. In responding to
+long-standing educational issues, it is key to uphold
+the idea that human",1.0,"The central argument is clear, but the opening is a sentence continuation and the final sentence is cut off. (Same chunking output as Strategy B.)"
+C,S02,unesco_genai_2023,26,3c47bf97d74a3e141c3525d116356e4d62601a7b5f2a03e0e8d6bcdc0f358205,493,"include all people globally
+who have access to the Internet and at least one type
+of GenAI tool. The term ‘individual users’ , as employed
+here, mainly refer to individual teachers, researchers
+and learners in formal educational institutions or those
+participating in non-formal programmes of study.
+● Awareness of terms of reference on the
+use of GenAI: Upon signing or expressing
+consent to service agreements, users should
+be aware of the obligations of abiding by the
+ToR stipulated in the",1.0,"The passage describes individual GenAI users and their obligations, but starts and ends mid-sentence. (Same chunking output as Strategy B.)"
+C,S03,unesco_genai_2023,41,22d8e6e81d423f3cd70ffc0009394fe1ed09873a62a726863b41312d50c3c215,500,"has long been expected that AI tools can be further
+integrated as part and parcel of the tools available
+to humans to support analysis and action for more
+inclusive and sustainable futures.
+For AI to be a trustable part and parcel of human-
+machine collaboration – at individual, institutional and
+system levels – the human-centred approach informed
+by the 2021 UNESCO Recommendation on the Ethics of
+AI is to be further specified and implemented according
+to the specific characteristics of emerging",1.0,"The human-centred AI argument is coherent, although the final sentence is truncated. (Same chunking output as Strategy B.)"
+C,S04,educause_horizon_2024,19,3f4777ba4718d704b84cd4a38b2f74726f083edb2da3cd1fb40cd0b5092d1ca1,499,"hinder the learning and use of foreign
+languages
+• Improve communication within organizations
+• Exacerbate loneliness
+Technological Trends
+AI tools have growing potential to reshape
+pedagogy and student experiences. When ChatGPT
+burst onto the scene, it grabbed the attention of faculty and
+students globally. Since then, there has been great concern
+over the use of generative AI in the classroom, especially in
+the realm of course assessments and plagiarism. Yet AI tools
+are not only growing more",1.0,"The section is topically consistent, but begins with the tail of a list and ends mid-sentence. (Same chunking output as Strategy B.)"
+C,S05,educause_horizon_2024,23,fdd4855350cf6a565487030bdd9fec947127f18e60e354d6584836370e2fd459,493,"Emerging Technologies Faculty Learning Community
+(FLC) at Saginaw Valley State University consists of eighteen
+faculty members studying the impact of artificial intelligence
+in higher education. Throughout the academic year, the
+FLC will explore how to update teaching methods, course
+designs, and curricula in response to AI advancements.
+Each participant is working on a practical project, such as
+course redesigns, new assignments, curricular proposals, or
+resources for peers.
+AI-Intensive",2.0,The faculty learning-community example is explained in connected sentences with a clear subject and purpose. (Same chunking output as Strategy B.)
+C,S06,educause_horizon_2024,44,1c3b5b4511d8ed093c4be75261f5675304a9100d076665308da4265656efde7f,495,"to
+enhance teaching and learning. It offers practical strategies,
+curated tools, and real examples from classrooms to
+support faculty in thoughtfully integrating generative AI while
+prioritizing student privacy and ethical considerations.
+Partners for Algorithmic Literacy: Student–
+Faculty Learning Community
+The Partners for Algorithmic Literacy (PAL) learning
+community at Purdue University Libraries transforms
+academia’s response to AI from reactive to proactive and
+participatory, bridging",1.0,"The passage contains related teaching/learning examples, but begins mid-sentence and ends before the PAL description is complete. (Same chunking output as Strategy B.)"
+C,S07,odea_ai_literacy_2024,2,ff95599efb8f6fd9c4b9c797516c6219deb25bfef05683cc91f5d0a4c4c3f0a3,492,"their
+time at university. Even though some universities have provided AI literacy training courses to
+students, the courses are not yet widely available to students across the higher education sector.
+Besides, there has been a shortage of GenAI literacy courses in particular. And more importantly, it
+is unclear what knowledge and skills that need to be included relating to GenAI literacy, from the
+student perspective. Building a strong understanding of student perceptions in this area is",1.0,"The shortage of GenAI literacy courses and research gap are clear, but the chunk starts and ends mid-sentence. (Same chunking output as Strategy B.)"
+C,S08,odea_ai_literacy_2024,11,ee47395096b83fde109ebc896a30e4a34a8f95b21cefd80ea4fbec870fe5c240,500,"reports —for producing part of the entire essay 0.000000*
+Just playing around to see what it does 0.001064*
+Don’t use it at all 0.008018*
+How to decide which software to use
+Access provided by work/university 0.001367*
+Gender Software used
+ChatGPT3.5 0.005100*
+What the software was used for
+Generating computer code 0.000936*
+Just playing around to see what it does 0.001587*
+How to decide which software to use
+Because it is free 0.006805*
+Because of the functionality of the tool 0.005139*
+Subject",0.0,The chunk is dominated by fragmented table content; labels and numerical values are difficult to associate. (Same chunking output as Strategy B.)
+C,S09,odea_ai_literacy_2024,19,393a69088890be67e7a6c2174da65c3505cc0f5e347c02a56a06076c05cb6e44,491,"adapt existing AI literacy measures for the context of generative AI across the United
+Kingdom and Hong Kong. By developing a GenAI-speci ﬁc literacy questionnaire, this study
+provided novel insights into how demographic factors in ﬂuence students ’ understanding and
+perceptions of this emerging technology in ChatGPT world.
+Consequently, there is a need to design learni ng programs and allocate resources to prevent
+universities from falling behind. Future research should also assess the",1.0,"The contribution and implications are understandable, but the opening and ending are incomplete sentence fragments. (Same chunking output as Strategy B.)"
+A,S10,unesco_genai_2023,17,52857315566d70513f7aa5adafc40bc378c910ebf7447bfd0881d7929e5f36e0,498,"more disadvantaged
+communities in the Global North.
+2.2 Outpacing national regulation
+adaptation
+Dominant GenAI providers have also been criticized
+for not allowing their systems to be subject to
+rigorous independent academic review (Dwivedi et al.,
+2023).44The foundational technologies of a company’s
+GenAI tend to be protected as corporate intellectual
+property. Meanwhile many of the companies that
+are starting to use GenAI are finding it increasingly
+challenging to maintain security of their",1.0,"The regulation and intellectual-property discussion is identifiable, but sentence boundaries are incomplete."
+B,S10,unesco_genai_2023,17,c612b56fb3cb4f575fbb837b30420824048b9114dcc21949c9e65796307e69cf,498,"to
+rigorous independent academic review (Dwivedi et al.,
+2023).44The foundational technologies of a company’s
+GenAI tend to be protected as corporate intellectual
+property. Meanwhile many of the companies that
+are starting to use GenAI are finding it increasingly
+challenging to maintain security of their systems (Lin,
+2023). Moreover, despite calls for regulation from the
+AI industry itself,45 the drafting of legislation on the
+creation and use of all AI, including GenAI, often lags
+behind the",1.0,"The regulation discussion is connected, but starts and ends mid-sentence and lacks complete boundary context."
+C,S10,unesco_genai_2023,17,c612b56fb3cb4f575fbb837b30420824048b9114dcc21949c9e65796307e69cf,498,"to
+rigorous independent academic review (Dwivedi et al.,
+2023).44The foundational technologies of a company’s
+GenAI tend to be protected as corporate intellectual
+property. Meanwhile many of the companies that
+are starting to use GenAI are finding it increasingly
+challenging to maintain security of their systems (Lin,
+2023). Moreover, despite calls for regulation from the
+AI industry itself,45 the drafting of legislation on the
+creation and use of all AI, including GenAI, often lags
+behind the",1.0,"The regulation discussion is connected, but starts and ends mid-sentence and lacks complete boundary context. (Same chunking output as Strategy B.)"

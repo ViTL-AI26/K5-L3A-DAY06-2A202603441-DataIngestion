@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id, source, page, source_id, title, license, year, topic, chunking_method, chunk_index",None,OpenAI text-embedding-3-small (768 dimensions); pgvector cosine similarity,Baseline: fixed-size chunks provide a reproducible reference for comparison.,2/15 (13.33%),5/15 (33.33%),1/5 (20.00%),2/5 (40.00%),505 chunks; mean 473.80 chars. Chunk coherence 0.80/2; grounding 0.93/2; metadata completeness 100%.
+B,paragraph_based,500,N/A,"document_id, source, page, source_id, title, license, year, topic, chunking_method, chunk_index",None,OpenAI text-embedding-3-small (768 dimensions); pgvector cosine similarity,Paragraph-aware chunking may preserve semantic context better than fixed-size splitting.,4/15 (26.67%),5/15 (33.33%),1/5 (20.00%),2/5 (40.00%),466 chunks; mean 464.87 chars. Chunk coherence 1.00/2; grounding 0.93/2; metadata completeness 100%.
+C,paragraph_based (reuse B chunks/vectors),500,N/A,Same as B,Apply question-provided metadata filter when present (e.g. year=2024),Same B embeddings: OpenAI text-embedding-3-small (768 dimensions); pgvector cosine similarity,Metadata filtering may improve retrieval for questions with explicit metadata constraints.,4/15 (26.67%),5/15 (33.33%),1/5 (20.00%),2/5 (40.00%),466 chunks; reuses B chunks and vectors; storage/retrieval-specific recorded time 0.387s. Chunk coherence 1.00/2; grounding 0.93/2; metadata completeness 100%.

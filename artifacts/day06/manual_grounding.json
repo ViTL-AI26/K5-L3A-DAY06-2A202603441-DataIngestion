@@ -1,0 +1,452 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "Q16",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 4,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q16",
+    "rank": 2,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 9,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q16",
+    "rank": 3,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 15,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q17",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 3,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q17",
+    "rank": 2,
+    "document_id": "unesco_genai_2023",
+    "page": 38,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q17",
+    "rank": 3,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 3,
+    "evidence_hit": true,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q18",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 17,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q18",
+    "rank": 2,
+    "document_id": "unesco_genai_2023",
+    "page": 31,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q18",
+    "rank": 3,
+    "document_id": "unesco_genai_2023",
+    "page": 31,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q19",
+    "rank": 1,
+    "document_id": "educause_horizon_2024",
+    "page": 22,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q19",
+    "rank": 2,
+    "document_id": "educause_horizon_2024",
+    "page": 22,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q19",
+    "rank": 3,
+    "document_id": "educause_horizon_2024",
+    "page": 24,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q20",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 19,
+    "evidence_hit": true,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q20",
+    "rank": 2,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 4,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "question_id": "Q20",
+    "rank": 3,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 9,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q16",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 15,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q16",
+    "rank": 2,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 4,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q16",
+    "rank": 3,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 2,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q17",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 3,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q17",
+    "rank": 2,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 2,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q17",
+    "rank": 3,
+    "document_id": "unesco_genai_2023",
+    "page": 31,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q18",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 17,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q18",
+    "rank": 2,
+    "document_id": "unesco_genai_2023",
+    "page": 31,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q18",
+    "rank": 3,
+    "document_id": "unesco_genai_2023",
+    "page": 26,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q19",
+    "rank": 1,
+    "document_id": "educause_horizon_2024",
+    "page": 22,
+    "evidence_hit": true,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q19",
+    "rank": 2,
+    "document_id": "educause_horizon_2024",
+    "page": 22,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q19",
+    "rank": 3,
+    "document_id": "educause_horizon_2024",
+    "page": 22,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q20",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 18,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q20",
+    "rank": 2,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 7,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "question_id": "Q20",
+    "rank": 3,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 19,
+    "evidence_hit": true,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q16",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 15,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q16",
+    "rank": 2,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 4,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q16",
+    "rank": 3,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 2,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q17",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 3,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q17",
+    "rank": 2,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 2,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q17",
+    "rank": 3,
+    "document_id": "unesco_genai_2023",
+    "page": 31,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q18",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 17,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q18",
+    "rank": 2,
+    "document_id": "unesco_genai_2023",
+    "page": 31,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q18",
+    "rank": 3,
+    "document_id": "unesco_genai_2023",
+    "page": 26,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q19",
+    "rank": 1,
+    "document_id": "educause_horizon_2024",
+    "page": 22,
+    "evidence_hit": true,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q19",
+    "rank": 2,
+    "document_id": "educause_horizon_2024",
+    "page": 22,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q19",
+    "rank": 3,
+    "document_id": "educause_horizon_2024",
+    "page": 22,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q20",
+    "rank": 1,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 18,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q20",
+    "rank": 2,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 7,
+    "evidence_hit": false,
+    "score_0_1_2": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "question_id": "Q20",
+    "rank": 3,
+    "document_id": "odea_ai_literacy_2024",
+    "page": 19,
+    "evidence_hit": true,
+    "score_0_1_2": null,
+    "reason": ""
+  }
+]

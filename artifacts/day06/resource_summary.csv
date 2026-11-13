@@ -1,0 +1,4 @@
+chunk_count,chunking_seconds,embedding_dimensions,embedding_model,embedding_seconds,max_length,mean_length,median_length,min_length,note,storage_seconds,strategy,total_characters
+505,0.001,768,text-embedding-3-small,5.433,500,473.8,500,60,,0.718,A,239269
+466,0.013,768,text-embedding-3-small,5.498,500,464.87,495.0,8,,0.726,B,216630
+466,0.0,768,text-embedding-3-small,0.0,500,464.87,495.0,8,Reuses Strategy B chunks and vectors; only retrieval filtering differs.,0.387,C,216630

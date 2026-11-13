@@ -1,0 +1,45 @@
+[
+  {
+    "strategy": "A",
+    "chunk_count": 505,
+    "total_characters": 239269,
+    "min_length": 60,
+    "max_length": 500,
+    "mean_length": 473.8,
+    "median_length": 500,
+    "chunking_seconds": 0.001,
+    "embedding_seconds": 5.433,
+    "storage_seconds": 0.718,
+    "embedding_model": "text-embedding-3-small",
+    "embedding_dimensions": 768
+  },
+  {
+    "strategy": "B",
+    "chunk_count": 466,
+    "total_characters": 216630,
+    "min_length": 8,
+    "max_length": 500,
+    "mean_length": 464.87,
+    "median_length": 495.0,
+    "chunking_seconds": 0.013,
+    "embedding_seconds": 5.498,
+    "storage_seconds": 0.726,
+    "embedding_model": "text-embedding-3-small",
+    "embedding_dimensions": 768
+  },
+  {
+    "strategy": "C",
+    "chunk_count": 466,
+    "total_characters": 216630,
+    "min_length": 8,
+    "max_length": 500,
+    "mean_length": 464.87,
+    "median_length": 495.0,
+    "chunking_seconds": 0.0,
+    "embedding_seconds": 0.0,
+    "storage_seconds": 0.387,
+    "embedding_model": "text-embedding-3-small",
+    "embedding_dimensions": 768,
+    "note": "Reuses Strategy B chunks and vectors; only retrieval filtering differs."
+  }
+]

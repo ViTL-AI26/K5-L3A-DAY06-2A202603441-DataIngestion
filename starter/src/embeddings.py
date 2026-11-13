@@ -1,29 +1,92 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
-from typing import Protocol
+"""OpenAI embedding provider adapter."""
 
+import os
 
-class Embedder(Protocol):
-    model_name: str
-    dimensions: int
-
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        """Return one vector per input text, in the same order."""
-        ...
-
-    def embed_query(self, question: str) -> list[float]:
-        """Return a query vector compatible with the stored document vectors."""
-        ...
+from dotenv import load_dotenv
+from openai import OpenAI
 
 
 class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
+    """Generate real text embeddings using the OpenAI Embeddings API."""
 
-    def __init__(self, model_name: str) -> None:
+    def __init__(self, model_name: str = "text-embedding-3-small") -> None:
+        load_dotenv()
+
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise EnvironmentError(
+                "OPENAI_API_KEY is missing. Check your .env file."
+            )
+
         self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
+        # Keep the same vector size as the existing pgvector schema.
+        self.dimensions = 768
+        self.client = OpenAI(api_key=api_key)
+
+    def _embed(
+        self,
+        texts: list[str],
+        task_type: str | None = None,
+    ) -> list[list[float]]:
+        """Generate embeddings and validate the returned vectors.
+
+        task_type is retained for compatibility with the previous Gemini
+        adapter. OpenAI uses the same embedding endpoint for documents/queries.
+        """
+
+        if not texts:
+            return []
+
+        if any(not isinstance(text, str) or not text.strip() for text in texts):
+            raise ValueError("All input texts must be non-empty strings.")
+
+        vectors: list[list[float]] = []
+
+        # Keep requests moderate in size; each batch is one API request.
+        batch_size = 100
+
+        for start in range(0, len(texts), batch_size):
+            batch = texts[start:start + batch_size]
+
+            response = self.client.embeddings.create(
+                model=self.model_name,
+                input=batch,
+                dimensions=self.dimensions,
+                encoding_format="float",
+            )
+
+            if not response.data:
+                raise RuntimeError("OpenAI returned no embeddings.")
+
+            # Sort by input index to preserve the original text/vector order.
+            ordered_data = sorted(response.data, key=lambda item: item.index)
+
+            for item in ordered_data:
+                vector = item.embedding
+
+                if vector is None or len(vector) != self.dimensions:
+                    raise ValueError(
+                        "Unexpected embedding dimension returned by OpenAI."
+                    )
+
+                vectors.append([float(value) for value in vector])
+
+        if len(vectors) != len(texts):
+            raise RuntimeError(
+                f"Expected {len(texts)} vectors, received {len(vectors)}."
+            )
+
+        return vectors
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
+        """Embed document chunks for retrieval."""
+        return self._embed(texts)
 
     def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")
+        """Embed a search query compatible with document vectors."""
+
+        if not isinstance(question, str) or not question.strip():
+            raise ValueError("Query must be a non-empty string.")
+
+        vectors = self._embed([question])
+        return vectors[0]

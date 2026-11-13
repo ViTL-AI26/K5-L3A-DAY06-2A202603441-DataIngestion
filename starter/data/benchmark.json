@@ -1,0 +1,220 @@
+{
+  "title": "Generative AI and AI in Higher Education",
+  "version": "1.0",
+  "split_policy": "Fixed before retrieval: 15 dev questions and 5 test questions. Do not tune strategies using test results.",
+  "filter_policy": "Only apply a filter when the question contains one. Filters use the real year metadata loaded from the source manifest; they do not identify the gold source.",
+  "questions": [
+    {
+      "id": "Q01",
+      "split": "dev",
+      "question": "What concerns about generative AI are identified in the introduction to UNESCO’s guidance?",
+      "expected_answer": "The guidance identifies concerns including safety, data privacy, copyright, and manipulation.",
+      "gold_source_id": "unesco_genai_2023",
+      "gold_page": 10,
+      "evidence_quote": "But GenAI also raises multiple immediate concerns related to issues such as safety, data privacy, copyright, and manipulation.",
+      "question_type": "direct"
+    },
+    {
+      "id": "Q02",
+      "split": "dev",
+      "question": "How does UNESCO define generative AI?",
+      "expected_answer": "It is an AI technology that automatically generates content in response to prompts written in natural-language conversational interfaces.",
+      "gold_source_id": "unesco_genai_2023",
+      "gold_page": 11,
+      "evidence_quote": "Generative AI (GenAI) is an Artificial Intelligence (AI) technology that automatically generates content in response to prompts written in natural language conversational interfaces.",
+      "question_type": "definition"
+    },
+    {
+      "id": "Q03",
+      "split": "dev",
+      "question": "What kinds of content can generative AI produce according to UNESCO?",
+      "expected_answer": "It can produce text, images, videos, music, and software code.",
+      "gold_source_id": "unesco_genai_2023",
+      "gold_page": 11,
+      "evidence_quote": "The content can appear in formats that comprise all symbolic representations of human thinking: texts written in natural language, images (including photographs to digital paintings and cartoons), videos, music and software code.",
+      "question_type": "direct"
+    },
+    {
+      "id": "Q04",
+      "split": "dev",
+      "question": "Why does UNESCO caution users against trusting generative AI outputs as accurate?",
+      "expected_answer": "Because fluent and impressive outputs can still be inaccurate, and errors may go unnoticed without solid topic knowledge.",
+      "gold_source_id": "unesco_genai_2023",
+      "gold_page": 11,
+      "evidence_quote": "Moreover, despite its fluent and impressive output, GenAI cannot be trusted to be accurate.",
+      "question_type": "paraphrase"
+    },
+    {
+      "id": "Q05",
+      "split": "dev",
+      "question": "What recommendations does UNESCO give for writing effective prompts?",
+      "expected_answer": "Use simple, clear, and straightforward language, avoiding complex or ambiguous wording.",
+      "gold_source_id": "unesco_genai_2023",
+      "gold_page": 15,
+      "evidence_quote": "Use simple, clear and straightforward language that can be easily understood, avoiding complex or ambiguous wording.",
+      "question_type": "direct"
+    },
+    {
+      "id": "Q06",
+      "split": "dev",
+      "question": "According to UNESCO’s 2023 guidance, what is one important limitation of GPT-4 that requires care in its use?",
+      "expected_answer": "GPT-4 is not fully reliable: it can hallucinate facts and make reasoning errors.",
+      "gold_source_id": "unesco_genai_2023",
+      "gold_page": 15,
+      "evidence_quote": "Despite its capabilities, GPT-4 has similar limitations as earlier GPT models. Most importantly, it still is not fully reliable (it ‘hallucinates’ facts and makes reasoning errors).",
+      "question_type": "metadata_filter",
+      "filter": {
+        "year": 2023
+      }
+    },
+    {
+      "id": "Q07",
+      "split": "dev",
+      "question": "What is the purpose of developing education-specific EdGPT models?",
+      "expected_answer": "They are fine-tuned with high-quality, domain-specific education data to serve educational purposes.",
+      "gold_source_id": "unesco_genai_2023",
+      "gold_page": 16,
+      "evidence_quote": "EdGPT models are trained with specific data to serve educational purposes.",
+      "question_type": "direct"
+    },
+    {
+      "id": "Q08",
+      "split": "dev",
+      "question": "What human-centred principle does UNESCO say should guide the integration of GenAI into education and research?",
+      "expected_answer": "AI tools should extend or augment human intellectual abilities and social skills rather than undermine or replace them.",
+      "gold_source_id": "unesco_genai_2023",
+      "gold_page": 41,
+      "evidence_quote": "AI tools should be designed to extend or augment human intellectual abilities and social skills – and not undermine them, conflict with them or usurp them.",
+      "question_type": "principle"
+    },
+    {
+      "id": "Q09",
+      "split": "dev",
+      "question": "What potential classroom benefits of AI are identified in the EDUCAUSE report?",
+      "expected_answer": "Potential benefits include facilitating ideation and creativity, boosting engagement, personalizing learning, and providing tutoring and feedback.",
+      "gold_source_id": "educause_horizon_2024",
+      "gold_page": 19,
+      "evidence_quote": "Facilitate ideation and creativity",
+      "question_type": "list_item"
+    },
+    {
+      "id": "Q10",
+      "split": "dev",
+      "question": "Why do higher education institutions need to update guidance on AI-enabled technologies?",
+      "expected_answer": "Because AI tools and their classroom uses are evolving, so institutions need to update recommendations and guidelines and support responsible use.",
+      "gold_source_id": "educause_horizon_2024",
+      "gold_page": 19,
+      "evidence_quote": "As these technologies continue to change and as adoption increases, higher education institutions will have to regularly update their recommendations and guidelines regarding the use of such technologies",
+      "question_type": "reason"
+    },
+    {
+      "id": "Q11",
+      "split": "dev",
+      "question": "Which workforce-related opportunity and risk of AI does EDUCAUSE describe?",
+      "expected_answer": "AI may increase productivity by automating routine tasks, but it may also contribute to job losses.",
+      "gold_source_id": "educause_horizon_2024",
+      "gold_page": 20,
+      "evidence_quote": "AI has the potential to significantly change the way individuals work, with many feeling optimistic that AI will help boost productivity by automating mundane and time-consuming tasks",
+      "question_type": "contrast"
+    },
+    {
+      "id": "Q12",
+      "split": "dev",
+      "question": "What does EDUCAUSE mean by supporting AI fluency in higher education?",
+      "expected_answer": "Helping stakeholders understand what AI is and is not, use it to support meaningful teaching and learning, and navigate bias and ethical issues.",
+      "gold_source_id": "educause_horizon_2024",
+      "gold_page": 21,
+      "evidence_quote": "supporting AI fluency will help stakeholders understand what AI is and what it is not, how to leverage these tools to support meaningful teaching and learning experiences, and how to navigate potential issues of bias or ethics.",
+      "question_type": "definition"
+    },
+    {
+      "id": "Q13",
+      "split": "dev",
+      "question": "According to EDUCAUSE, who should help decide how AI-enabled technology is integrated into teaching and learning?",
+      "expected_answer": "Faculty, staff, and students should work together to decide how AI-enabled technology is integrated into teaching and learning.",
+      "gold_source_id": "educause_horizon_2024",
+      "gold_page": 22,
+      "evidence_quote": "Faculty, staff, and students will need to work together in the coming years to decide how they want to integrate",
+      "question_type": "direct"
+    },
+    {
+      "id": "Q14",
+      "split": "dev",
+      "question": "In the 2024 EDUCAUSE report, what does the AI EduCraft Series aim to develop among faculty?",
+      "expected_answer": "It aims to develop faculty AI literacy so they can integrate AI into teaching and research through a human-centred pedagogy.",
+      "gold_source_id": "educause_horizon_2024",
+      "gold_page": 44,
+      "evidence_quote": "Focusing on practical applications, participants develop AI literacy to seamlessly integrate technology into teaching and research.",
+      "question_type": "metadata_filter",
+      "filter": {
+        "year": 2024
+      }
+    },
+    {
+      "id": "Q15",
+      "split": "dev",
+      "question": "What four dimensions does the O’Dea et al. study propose for GenAI literacy?",
+      "expected_answer": "Knowledge, application, evaluation, and AI ethics.",
+      "gold_source_id": "odea_ai_literacy_2024",
+      "gold_page": 19,
+      "evidence_quote": "GenAI literacy should encompass the four dimensions of knowledge, application, evaluation, and AI ethics",
+      "question_type": "direct"
+    },
+    {
+      "id": "Q16",
+      "split": "test",
+      "question": "What does the O’Dea et al. study report about the relationship between prior AI learning and students’ GenAI literacy?",
+      "expected_answer": "Prior learning about AI was among the factors that significantly affected GenAI literacy.",
+      "gold_source_id": "odea_ai_literacy_2024",
+      "gold_page": 2,
+      "evidence_quote": "The results show that factors such as country of studies and prior learning about AI greatly impacted GenAI literacy.",
+      "question_type": "finding"
+    },
+    {
+      "id": "Q17",
+      "split": "test",
+      "question": "Which GenAI-related tasks are described as useful applications for university students in the O’Dea et al. paper?",
+      "expected_answer": "Examples include brainstorming ideas, creating document outlines, translation, and multimedia production.",
+      "gold_source_id": "odea_ai_literacy_2024",
+      "gold_page": 3,
+      "evidence_quote": "For example, it shows its ef ﬁciency in brainstorming new ideas, creating document outlines, translations, and multimedia production.",
+      "question_type": "list"
+    },
+    {
+      "id": "Q18",
+      "split": "test",
+      "question": "What ethical practices should individuals follow when using GenAI, according to O’Dea et al.?",
+      "expected_answer": "They should consider data ownership, privacy, and security when using GenAI.",
+      "gold_source_id": "odea_ai_literacy_2024",
+      "gold_page": 17,
+      "evidence_quote": "individuals should consider aspects such as data ownership, privacy, and security",
+      "question_type": "ethical"
+    },
+    {
+      "id": "Q19",
+      "split": "test",
+      "question": "According to the 2024 EDUCAUSE report, what concerns should institutions consider when using AI-enabled applications?",
+      "expected_answer": "They should consider risks such as unchecked bias, inequity, data privacy, and security.",
+      "gold_source_id": "educause_horizon_2024",
+      "gold_page": 22,
+      "evidence_quote": "Along with great potential, AI tools bring great risk. For example, unchecked biases can be amplified by AI, reinforcing and exacerbating systemic inequity. Data privacy and security are also central concerns.",
+      "question_type": "metadata_filter",
+      "filter": {
+        "year": 2024
+      }
+    },
+    {
+      "id": "Q20",
+      "split": "test",
+      "question": "What limitation of the O’Dea et al. study should readers consider when interpreting its findings?",
+      "expected_answer": "The Hong Kong participant sample was small, so the authors say further research is needed to confirm the observed effects.",
+      "gold_source_id": "odea_ai_literacy_2024",
+      "gold_page": 19,
+      "evidence_quote": "the sample size of the Hong Kong participants in this study was small",
+      "question_type": "metadata_filter",
+      "filter": {
+        "year": 2024
+      }
+    }
+  ]
+}
